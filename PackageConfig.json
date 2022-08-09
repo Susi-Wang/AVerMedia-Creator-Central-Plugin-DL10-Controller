@@ -1,0 +1,178 @@
+{
+    "Author": "Susi Wang",
+    "Description": "This kit contains IPCam-DL10 controller",
+    "Name": "IPCam-DL10 Controller",
+    "UUID": "com.avermedia.package.ipcam.controller",
+    "Icon": "images/Pan_tilt/mainpage_btn_ipcam_pan_tilt.svg",
+    "URL": "",
+    "Version": "1.0.0",
+    "Runtime": {
+        "mac": {
+            "type": "bin",
+            "target": "app/IPCamContoller.app",
+            "MinimumVersion": "11.0"
+        },
+        "win": {
+            "type": "bin",
+            "target": "app/IPCamContoller.exe",
+            "MinimumVersion": "10.0"
+        }
+    },
+    "CreatorCentral": {
+        "MinimumVersion": "1.1",
+        "SDKVersion": 2
+    },
+    "Widgets": [
+        {
+            "Name": "Recall Preset",
+            "Icon": "/images/Switch_Preset/mainpage_btn_ipcam_recall_preset.svg",
+            "Tooltip": "Recall Preset",
+            "UUID": "com.avermedia.widget.preset.switch",
+            "PropertyViewPath": "property/Switch_Preset/index.html",
+            "States": [
+                {
+                    "Image": "/images/Switch_Preset/mainpage_btn_ipcam_recall_preset.svg",
+                    "Title": "Recall"
+                }
+            ]
+        },
+        {
+            "Name": "Set Preset",
+            "Icon": "/images/Set_Preset/mainpage_btn_ipcam_set_preset.svg",
+            "Tooltip": "Set Preset",
+            "UUID": "com.avermedia.widget.preset.set",
+            "PropertyViewPath": "property/Set_Preset/index.html",
+            "States": [
+                {
+                    "Image": "/images/Set_Preset/mainpage_btn_ipcam_set_preset.svg",
+                    "Title": "Set Preset"
+                }             
+            ]
+        },
+	{
+            "Name": "Reset Preset",
+            "Icon": "/images/Reset_Preset/mainpage_btn_ipcam_reset_preset.svg",
+            "Tooltip": "Reset Preset",
+            "UUID": "com.avermedia.widget.preset.reset",
+            "PropertyViewPath": "property/Reset_Preset/index.html",
+            "States": [
+                {
+                    "Image": "/images/Reset_Preset/mainpage_btn_ipcam_reset_preset.svg",
+                    "Title": "Reset Preset"
+                }             
+            ]
+        },
+        {
+            "Name": "Pan Tilt",
+            "Icon": "/images/Pan_tilt/mainpage_btn_ipcam_pan_tilt.svg",
+            "Tooltip": "Pan Tilt",
+            "UUID": "com.avermedia.widget.rotate",
+            "PropertyViewPath": "property/Pan_tilt/index.html",
+            "States": [
+                {
+                    "Image": "/images/Pan_tilt/mainpage_btn_ipcam_pan_tilt.svg",
+                    "Title": "Pan Tilt"
+                }             
+            ]
+        },
+        {
+            "Name": "Tracking On",
+            "Icon": "/images/Tracking_On/mainpage_btn_ipcam_tracking_on.svg",
+            "Tooltip": "Tracking On",
+            "UUID": "com.avermedia.widget.tracking.on",
+            "PropertyViewPath": "property/Tracking_On/index.html",
+            "States": [
+                {
+                    "Image": "/images/Tracking_On/mainpage_btn_ipcam_tracking_on.svg",
+                    "Title": "Tracking On"
+                }             
+            ]
+        },
+        {
+            "Name": "Tracking Off",
+            "Icon": "/images/Tracking_Off/mainpage_btn_ipcam_tracking_off.svg",
+            "Tooltip": "Tracking Off",
+            "UUID": "com.avermedia.widget.tracking.off",
+            "PropertyViewPath": "property/Tracking_Off/index.html",
+            "States": [
+                {
+                    "Image": "/images/Tracking_Off/mainpage_btn_ipcam_tracking_off.svg",
+                    "Title": "Tracking Off"
+                }             
+            ]
+        },
+        {
+            "Name": "Zoom In",
+            "Icon": "/images/Zoom_In/mainpage_btn_ipcam_zoom_in.svg",
+            "Tooltip": "Zoom In",
+            "UUID": "com.avermedia.widget.zoom.in",
+            "PropertyViewPath": "property/Zoom_In/index.html",
+            "States": [
+                {
+                    "Image": "/images/Zoom_In/mainpage_btn_ipcam_zoom_in.svg",
+                    "Title": "Zoom In"
+                }             
+            ]
+        },
+        {
+            "Name": "Zoom Out",
+            "Icon": "/images/Zoom_Out/mainpage_btn_ipcam_zoom_out.svg",
+            "Tooltip": "Zoom Out",
+            "UUID": "com.avermedia.widget.zoom.out",
+            "PropertyViewPath": "property/Zoom_Out/index.html",
+            "States": [
+                {
+                    "Image": "/images/Zoom_Out/mainpage_btn_ipcam_zoom_out.svg",
+                    "Title": "Zoom Out"
+                }             
+            ]
+        },
+        {
+            "Name": "ReFocus",
+            "Icon": "/images/Focus_OnePush/mainpage_btn_ipcam_refocus.svg",
+            "Tooltip": "ReFocus",
+            "UUID": "com.avermedia.widget.focus.onepush",
+            "PropertyViewPath": "property/Focus_OnePush/index.html",
+            "States": [
+                {
+                    "Image": "/images/Focus_OnePush/mainpage_btn_ipcam_refocus.svg",
+                    "Title": "ReFocus"
+                }             
+            ]
+        },
+        {
+            "Name": "Auto Focus",
+            "Icon": "/images/Focus_AF/mainpage_btn_ipcam_auto_focus_on.svg",
+            "Tooltip": "Auto Focus",
+            "UUID": "com.avermedia.widget.focus.auto",
+            "PropertyViewPath": "property/Focus_AF/index.html",
+            "States": [
+                {
+                        "Title": "AF On",
+                        "Image": "/images/Focus_AF/mainpage_btn_ipcam_auto_focus_on.svg"
+                },
+		{
+                        "Title": "AF Off",
+                        "Image": "/images/Focus_AF/mainpage_btn_ipcam_auto_focus_off.svg"
+                }             
+            ]
+        },
+        {
+            "Name": "Manual Focus",
+            "Icon": "/images/Focus_MF/mainpage_btn_ipcam_manual_focus_on.svg",
+            "Tooltip": "Manual Focus",
+            "UUID": "com.avermedia.widget.focus.manual",
+            "PropertyViewPath": "property/Focus_MF/index.html",
+            "States": [
+                {
+                        "Title": "MF On",
+                        "Image": "images/Focus_MF/mainpage_btn_ipcam_manual_focus_on.svg"
+                },
+                {
+                        "Title": "MF Off",
+                        "Image": "images/Focus_MF/mainpage_btn_ipcam_manual_focus_off.svg"
+                }            
+            ]
+        }
+    ]
+}

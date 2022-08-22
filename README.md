@@ -1,4 +1,4 @@
-# Aver DL10 widget for AX310
+# AVer DL10 widget for AX310
   
 1. **Presetting** product scenes, streamers could turn the scenes any time without leaving their seats.
 1. **Dynamic** focus, streamers could show accessories of any size with the high-quality cam.
